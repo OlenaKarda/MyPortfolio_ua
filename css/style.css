@@ -628,12 +628,25 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #263238;
+  background-color: rgba(38, 50, 56, 0.8);
+}
+
+.header._header-scroll {
+  position: fixed;
+  top: -120%;
+  background-color: rgba(38, 50, 56, 0.5);
+}
+
+.header._header-show {
+  -webkit-transition: top 0.3s ease 0s;
+  -o-transition: top 0.3s ease 0s;
+  transition: top 0.3s ease 0s;
+  top: 0;
 }
 
 .header__container {
