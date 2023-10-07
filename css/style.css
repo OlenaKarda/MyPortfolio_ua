@@ -125,7 +125,7 @@ body {
 }
 
 .select {
-  min-width: 10rem;
+  min-width: 6.25rem;
   position: relative;
 }
 
@@ -136,7 +136,7 @@ body {
 .select__title {
   color: inherit;
   text-align: left;
-  border: 1px solid #d9d9d9;
+  border: none;
   background-color: #263238;
   cursor: pointer;
   width: 100%;
@@ -229,7 +229,7 @@ body {
   left: 0;
   background-color: transparent;
   border-top: 0;
-  border: 1px solid #d9d9d9;
+  border: none;
   border-top: 0;
   padding: 10px 0px 5px 0px;
 }
@@ -662,6 +662,19 @@ body {
   padding-bottom: 0.3125rem;
   padding-top: 0.3125rem;
   min-height: 80px;
+}
+
+.header__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.25rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__logo {

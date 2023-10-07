@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230904203612">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231007143341">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +16,10 @@
 	<div class="wrapper">
 		<header data-scroll="120" data-scroll-show class="header">
 			<div class="header__container">
-				<a href="" class="header__logo">O<span>K</span></a>
-
+				<div class="header__info">
+					<div class="header__logo">O<span>K</span></div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
@@ -27,14 +29,14 @@
 							<li class="menu__item"><a data-goto=".contact" href="#" class="menu__link">Контакти</a></li>
 						</ul>
 					</nav>
-					<div data-da=".menu__list,767.98" class="header__select">
+					<div class="header__select">
 						<select name="form[]" data-class-modif="form">
-							<option data-href="#" value="1" selected>Українська</option>
-							<option data-href="https://olenakarda.github.io/MyPortfolio_en/" value="2">English</option>
+							<option data-href="#" value="1" selected>Укр</option>
+							<option data-href="https://olenakarda.github.io/MyPortfolio_en/" value="2">Eng</option>
 						</select>
 					</div>
 				</div>
-				<button type="button" class="icon-menu"><span></span></button>
+
 			</div>
 		</header>
 		<main data-fp class="page">
@@ -129,6 +131,14 @@
 							<div class="tabs__body">
 								<div class="tabs__items">
 									<!-- ----------------Lendings---------------- -->
+
+									<div class="tabs__item item">
+										<div class="item__image"><a href="https://olenakarda.github.io/Coffee/"><picture><source srcset="img/portfolio/Coffee.webp" type="image/webp"><img src="img/portfolio/Coffee.jpg" alt=""></picture></a></div>
+										<div class="item__info">
+											<a href="https://olenakarda.github.io/Coffee/" class="item__title">Coffee</a>
+											<div class="item__subtitle">Лендінг для кав'ярні</div>
+										</div>
+									</div>
 
 									<div class="tabs__item item">
 										<dib class="item__image"><a href="https://olenakarda.github.io/TheBox/"><picture><source srcset="img/portfolio/theBox.webp" type="image/webp"><img src="img/portfolio/theBox.jpg" alt=""></picture></a></dib>
@@ -324,7 +334,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230904203612"></script>
+	<script src="js/app.min.js?_v=20231007143341"></script>
 </body>
 
 </html>
